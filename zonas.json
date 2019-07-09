@@ -1,0 +1,601 @@
+var zonas=[
+{
+"Identificativo":"00"
+,
+"Comentario":"TOMA DE AGUA DE MAR"
+}
+,
+{
+"Identificativo":"01"
+,
+"Comentario":"ZONAS DE REJAS Y FILTROS"
+}
+,
+{
+"Identificativo":"02"
+,
+"Comentario":"COMBAS DE AGUA DE MAR "
+}
+,
+{
+"Identificativo":"03"
+,
+"Comentario":"PUENTE GRUA "
+}
+,
+{
+"Identificativo":"04"
+,
+"Comentario":"ANTIARIETES DE AGUA DE MAR "
+}
+,
+{
+"Identificativo":"05"
+,
+"Comentario":"CANTARA DE TOMA "
+}
+,
+{
+"Identificativo":"06"
+,
+"Comentario":"IMPULSION DE AGUA DE MAR "
+}
+,
+{
+"Identificativo":"07"
+,
+"Comentario":"SISTEMA DE VACIO "
+}
+,
+{
+"Identificativo":"08"
+,
+"Comentario":"TOMA DE AGUA DE MAR"
+}
+,
+{
+"Identificativo":"09"
+,
+"Comentario":"TOMA DE AGUA DE MAR"
+}
+,
+{
+"Identificativo":"10"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"11"
+,
+"Comentario":"LINEA NORTE "
+}
+,
+{
+"Identificativo":"12"
+,
+"Comentario":"LINEA SUR "
+}
+,
+{
+"Identificativo":"13"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"14"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"15"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"16"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"17"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"18"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"19"
+,
+"Comentario":"ZONA ENTRADA ; FLOCULACION ; COAGULACION"
+}
+,
+{
+"Identificativo":"20"
+,
+"Comentario":"FILTRACION FLOTACION LINEA NORTE "
+}
+,
+{
+"Identificativo":"21"
+,
+"Comentario":"AREA PRESURIZACION LINEA NORTE "
+}
+,
+{
+"Identificativo":"22"
+,
+"Comentario":"FILTRACION FLOTACION LINEA SUR "
+}
+,
+{
+"Identificativo":"23"
+,
+"Comentario":"AREA PRESURIZACION LINEA SUR"
+}
+,
+{
+"Identificativo":"24"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"25"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"26"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"27"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"28"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"29"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"30"
+,
+"Comentario":"DEPOSITOS AGUA FILTRADA Y SALMUERA "
+}
+,
+{
+"Identificativo":"31"
+,
+"Comentario":"UNIDADES FILTROS ARENA CERRADOS LINEA BAP "
+}
+,
+{
+"Identificativo":"32"
+,
+"Comentario":"UNIDADES FILTROS DE BUJIAS LINEA BAP "
+}
+,
+{
+"Identificativo":"33"
+,
+"Comentario":"FOSO DE BOMBEO DE LAVADO "
+}
+,
+{
+"Identificativo":"34"
+,
+"Comentario":"FOSO DE BOMBEO A LINEA BAP "
+}
+,
+{
+"Identificativo":"35"
+,
+"Comentario":"FOSO DE COMCEO A LINEA PX "
+}
+,
+{
+"Identificativo":"36"
+,
+"Comentario":"FOSO SOPLANTES DE LAVADO "
+}
+,
+{
+"Identificativo":"37"
+,
+"Comentario":"UNIDADES FILTROS ARENA CERRADOS LINEA PX "
+}
+,
+{
+"Identificativo":"38"
+,
+"Comentario":"UNIDADES FILTROS DE BUJIAS LINEA PX"
+}
+,
+{
+"Identificativo":"39"
+,
+"Comentario":"ZONA COMPRESORES"
+}
+,
+{
+"Identificativo":"40"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"41"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"42"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"43"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"44"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"45"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"46"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"47"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"48"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"49"
+,
+"Comentario":"ZONA DE COLECTORES COMUNES"
+}
+,
+{
+"Identificativo":"50"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"51"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"52"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"53"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"54"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"55"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"56"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"57"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"58"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"59"
+,
+"Comentario":"LINEAS DE OSMOSIS"
+}
+,
+{
+"Identificativo":"60"
+,
+"Comentario":"PUENTE GRUA "
+}
+,
+{
+"Identificativo":"61"
+,
+"Comentario":"ZONA LAVADO Y DESPLAZAMIENTO "
+}
+,
+{
+"Identificativo":"62"
+,
+"Comentario":"ZONA VERIFICACION"
+}
+,
+{
+"Identificativo":"63"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"64"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"65"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"66"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"67"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"68"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"69"
+,
+"Comentario":""
+}
+,
+{
+"Identificativo":"70"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"71"
+,
+"Comentario":"IMPULSION AGUA TRATADA EN PLANTA "
+}
+,
+{
+"Identificativo":"72"
+,
+"Comentario":"IMPULSION AGUA TRATADA EN EMBALSE "
+}
+,
+{
+"Identificativo":"73"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"74"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"75"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"76"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"77"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"78"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"79"
+,
+"Comentario":"IMPULSION AGUA PRODUCTO"
+}
+,
+{
+"Identificativo":"80"
+,
+"Comentario":"TRATAMIENTO DE FANGOS-80 "
+}
+,
+{
+"Identificativo":"81"
+,
+"Comentario":"DEPOSITO DE AGUA DE LAVADO "
+}
+,
+{
+"Identificativo":"82"
+,
+"Comentario":"FLOTADOR Y PRESURIZACION "
+}
+,
+{
+"Identificativo":"83"
+,
+"Comentario":"DEPOSITO DE FANGOS "
+}
+,
+{
+"Identificativo":"84"
+,
+"Comentario":"CENTRIFUGAS "
+}
+,
+{
+"Identificativo":"85"
+,
+"Comentario":"SILO DE FANGOS "
+}
+,
+{
+"Identificativo":"86"
+,
+"Comentario":"TRATAMIENTO DE FANGOS-80 "
+}
+,
+{
+"Identificativo":"87"
+,
+"Comentario":"TRATAMIENTO DE FANGOS-81"
+}
+,
+{
+"Identificativo":"88"
+,
+"Comentario":"TRATAMIENTO DE FANGOS-82"
+}
+,
+{
+"Identificativo":"89"
+,
+"Comentario":"TRATAMIENTO DE FANGOS-83"
+}
+,
+{
+"Identificativo":"90"
+,
+"Comentario":"SISTEMA DE CO2"
+}
+,
+{
+"Identificativo":"91"
+,
+"Comentario":"SISTEMA DE CAL "
+}
+,
+{
+"Identificativo":"92"
+,
+"Comentario":"SISTEMA DE CAL "
+}
+,
+{
+"Identificativo":"93"
+,
+"Comentario":"AREA DE COAGULANTE"
+}
+,
+{
+"Identificativo":"94"
+,
+"Comentario":"AREA DE HIDROXIDO SODICO "
+}
+,
+{
+"Identificativo":"95"
+,
+"Comentario":"AREA DE DISPERSANTE "
+}
+,
+{
+"Identificativo":"96"
+,
+"Comentario":"AREA DE BISULFITO "
+}
+,
+{
+"Identificativo":"97"
+,
+"Comentario":"AREA DE POLIELECTROLITO "
+}
+,
+{
+"Identificativo":"98"
+,
+"Comentario":"AREA DE HIPOCLORITO "
+}
+,
+{
+"Identificativo":"99"
+,
+"Comentario":"AREA DE ACIDO SULFÚRICO "
+}
+]

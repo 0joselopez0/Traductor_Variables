@@ -1,0 +1,115 @@
+var varios=[
+{
+"Identificativo":"TAP "
+,
+"Comentario":"FILTROS TAPIS "
+}
+,
+{
+"Identificativo":"REJ"
+,
+"Comentario":"REJAS "
+}
+,
+{
+"Identificativo":"OSM"
+,
+"Comentario":"RACK DE OSMOSIS"
+}
+,
+{
+"Identificativo":"CO "
+,
+"Comentario":"COMPRESORES "
+}
+,
+{
+"Identificativo":"AG"
+,
+"Comentario":"AGITADORES "
+}
+,
+{
+"Identificativo":"SOP"
+,
+"Comentario":"SOPLANTES "
+}
+,
+{
+"Identificativo":"TOR"
+,
+"Comentario":"TORNILLOS DE TRANSPORTE "
+}
+,
+{
+"Identificativo":"GR"
+,
+"Comentario":"PUENTE GRUA "
+}
+,
+{
+"Identificativo":"PO"
+,
+"Comentario":"POLIPASTO "
+}
+,
+{
+"Identificativo":"MX"
+,
+"Comentario":"MEZCLADOR EXTATICO "
+}
+,
+{
+"Identificativo":"ANT"
+,
+"Comentario":"CALDERIN ATIARIETE "
+}
+,
+{
+"Identificativo":"GEN"
+,
+"Comentario":"GENERADOR DE ENERGIA "
+}
+,
+{
+"Identificativo":"CEV"
+,
+"Comentario":"CAJAS DE ELECTROVALVULAS "
+}
+,
+{
+"Identificativo":"DR"
+,
+"Comentario":"DISCO RUPTURA "
+}
+,
+{
+"Identificativo":"JE"
+,
+"Comentario":"JUNTAS DE EXPANSION "
+}
+,
+{
+"Identificativo":"GP"
+,
+"Comentario":"GRUPO PRESION "
+}
+,
+{
+"Identificativo":"FM"
+,
+"Comentario":"FILTRO MANGA "
+}
+,
+{
+"Identificativo":"RB"
+,
+"Comentario":"ROMPEBOVEDAS "
+}
+,
+{
+"Identificativo":"POL"
+,
+"Comentario":"EQUIPO POLYPACK"
+}
+]

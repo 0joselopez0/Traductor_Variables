@@ -1,0 +1,13 @@
+var adicional=[
+{
+"Identificativo":"P1"
+,
+"Comentario":"PRIMER PASO"
+}
+,
+{
+"Identificativo":"P2"
+,
+"Comentario":"SEGUNDO PASO"
+}
+]

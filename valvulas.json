@@ -1,0 +1,163 @@
+var valvulas=[
+{
+"Identificativo":"VMM"
+,
+"Comentario":"MARIPOSA MANUAL "
+}
+,
+{
+"Identificativo":"VMA"
+,
+"Comentario":"MARIPOSA AUTOMATICA "
+}
+,
+{
+"Identificativo":"VMR"
+,
+"Comentario":"MARIPOSA REGULACION"
+}
+,
+{
+"Identificativo":"GVM"
+,
+"Comentario":"VALV.COMPUERTA MANUAL "
+}
+,
+{
+"Identificativo":"GVA"
+,
+"Comentario":"VALV. COMPUERTA AUTOMATICA "
+}
+,
+{
+"Identificativo":"GVR"
+,
+"Comentario":"VALV. COMPUERTA REGULACION "
+}
+,
+{
+"Identificativo":"VDM"
+,
+"Comentario":"VALV. MEMBRANA MANUAL "
+}
+,
+{
+"Identificativo":"VDA"
+,
+"Comentario":"VALV. MEMBRANA AUTOMATICA "
+}
+,
+{
+"Identificativo":"VDR"
+,
+"Comentario":"VALV. MEMBRANA REGULACION "
+}
+,
+{
+"Identificativo":"PVM"
+,
+"Comentario":"VALV. MACHO MANUAL "
+}
+,
+{
+"Identificativo":"PVA"
+,
+"Comentario":"VALV. MACHO AUTOMATICA "
+}
+,
+{
+"Identificativo":"PVR"
+,
+"Comentario":"VALV. MACHO REGULACION "
+}
+,
+{
+"Identificativo":"BVM"
+,
+"Comentario":"VALV. BOLA MANUAL "
+}
+,
+{
+"Identificativo":"BVA"
+,
+"Comentario":"VALV. BOLA AUTOMATICA "
+}
+,
+{
+"Identificativo":"BVR"
+,
+"Comentario":"VALV. BOLA REGULACION "
+}
+,
+{
+"Identificativo":"GTM"
+,
+"Comentario":"COMPUERTA MANUAL "
+}
+,
+{
+"Identificativo":"GTA"
+,
+"Comentario":"COMPUERTA AUTOMATICA "
+}
+,
+{
+"Identificativo":"GTR"
+,
+"Comentario":" COMPUERTA DE REGULACION "
+}
+,
+{
+"Identificativo":"CV"
+,
+"Comentario":"VALVULA DE RETENCION "
+}
+,
+{
+"Identificativo":"SV"
+,
+"Comentario":"VALVULA DE SOLENOIDE "
+}
+,
+{
+"Identificativo":"VS"
+,
+"Comentario":"VALVULA DE SEGURIDAD "
+}
+,
+{
+"Identificativo":"VV"
+,
+"Comentario":"VALVULA DE VENTOSA "
+}
+,
+{
+"Identificativo":"MAS"
+,
+"Comentario":"VALVULA TIPO MASSONEILAN "
+}
+,
+{
+"Identificativo":"VFL"
+,
+"Comentario":"VALVULA DE FLOTADOR "
+}
+,
+{
+"Identificativo":"PVM"
+,
+"Comentario":"VALV. MACHO MANUAL "
+}
+,
+{
+"Identificativo":"PVA"
+,
+"Comentario":"VALV. MACHO AUTOMATICA "
+}
+,
+{
+"Identificativo":"PVR"
+,
+"Comentario":"VALV. MACHO REGULACION "
+}
+]

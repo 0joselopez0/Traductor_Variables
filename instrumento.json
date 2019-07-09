@@ -1,0 +1,271 @@
+var instrumento=[
+{
+"Identificativo":"CIIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE CLORO LIBRE "
+}
+,
+{
+"Identificativo":"CIT"
+,
+"Comentario":"TRANSMISOR DE CLORO LIBRE "
+}
+,
+{
+"Identificativo":"CIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE CONDUCTIVIDAD "
+}
+,
+{
+"Identificativo":"CT"
+,
+"Comentario":"TRANSMISOR DE CONDUCTIVIDAD "
+}
+,
+{
+"Identificativo":"DPI "
+,
+"Comentario":"NANOMETRO DIFERENCIAL "
+}
+,
+{
+"Identificativo":"DPIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE PRESION DIFERENCIAL "
+}
+,
+{
+"Identificativo":"DPT"
+,
+"Comentario":"TRANSMISOR DE PRESION DIFERENCIAL "
+}
+,
+{
+"Identificativo":"DPS"
+,
+"Comentario":"INTERRUPTOR DE PRESION DIFERENCIAL "
+}
+,
+{
+"Identificativo":"FI"
+,
+"Comentario":"ROTAMETRO "
+}
+,
+{
+"Identificativo":"FIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE CAUDAL "
+}
+,
+{
+"Identificativo":"FT"
+,
+"Comentario":"TRANSMISOR DE CAUDAL "
+}
+,
+{
+"Identificativo":"FSH"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL LPOR ALTA "
+}
+,
+{
+"Identificativo":"FSH"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL POR ALTA "
+}
+,
+{
+"Identificativo":"FSH"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL POR ALTA "
+}
+,
+{
+"Identificativo":"FSL"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL POR BAJA "
+}
+,
+{
+"Identificativo":"FSL"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL POR BAJA "
+}
+,
+{
+"Identificativo":"FSL"
+,
+"Comentario":"INTERRUPTOR DE CAUDAL POR BAJA "
+}
+,
+{
+"Identificativo":"LI"
+,
+"Comentario":"INDICADOR DE NIVEL "
+}
+,
+{
+"Identificativo":"LIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE NIVEL "
+}
+,
+{
+"Identificativo":"LT"
+,
+"Comentario":"TRANSMISOR DE NIVEL "
+}
+,
+{
+"Identificativo":"LSH"
+,
+"Comentario":"INTERRUPTOR DE NIVEL POR ALTA "
+}
+,
+{
+"Identificativo":"LSHH"
+,
+"Comentario":"INTERRRUPTOR DE NIVEL POR ALTA--ALTA "
+}
+,
+{
+"Identificativo":"LSLL"
+,
+"Comentario":"INTERRUPTOR DE NIVEL POR BAJA-BAJA"
+}
+,
+{
+"Identificativo":"LSLL"
+,
+"Comentario":"INTERRUPTOR DE NIVEL POR BAJA "
+}
+,
+{
+"Identificativo":"LSM"
+,
+"Comentario":"INTERRUPTOR DE NIVEL POR MEDIA "
+}
+,
+{
+"Identificativo":"ORP"
+,
+"Comentario":"TRANSMISOR INDICADOR DE REDOX "
+}
+,
+{
+"Identificativo":"pHT"
+,
+"Comentario":"TRANSMISOR DE Ph"
+}
+,
+{
+"Identificativo":"pHIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE Ph"
+}
+,
+{
+"Identificativo":"PI"
+,
+"Comentario":"MANOMETRO "
+}
+,
+{
+"Identificativo":"PIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE PRESION "
+}
+,
+{
+"Identificativo":"PT"
+,
+"Comentario":"TRANSMISOR DE PRESION "
+}
+,
+{
+"Identificativo":"PRD"
+,
+"Comentario":"REDUCTOR DE PRESION "
+}
+,
+{
+"Identificativo":"PSH"
+,
+"Comentario":"INTERRUPTOR DE PRESION POR ALTA "
+}
+,
+{
+"Identificativo":"PSL"
+,
+"Comentario":"INTERRUPTOR DE PRESION POR BAJA "
+}
+,
+{
+"Identificativo":"TDIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE TURBIDEZ "
+}
+,
+{
+"Identificativo":"TDT"
+,
+"Comentario":"TRANSMISOR DE TURBIDEZ "
+}
+,
+{
+"Identificativo":"TI"
+,
+"Comentario":"TERMOMETRO "
+}
+,
+{
+"Identificativo":"TT"
+,
+"Comentario":"TRANSMISOR DE TEMPERATURA "
+}
+,
+{
+"Identificativo":"TIT"
+,
+"Comentario":"TRANSMISOR INDICADOR DE TEMPERATURA "
+}
+,
+{
+"Identificativo":"TRH"
+,
+"Comentario":"TERMORRESISTENCIA DE ALTA "
+}
+,
+{
+"Identificativo":"TRL"
+,
+"Comentario":"TERMORRESISTENCIA DE BAJA "
+}
+,
+{
+"Identificativo":"TSH"
+,
+"Comentario":"INTERRUPTOR DE TEMPERATURA POR BAJA "
+}
+,
+{
+"Identificativo":"TSL"
+,
+"Comentario":"INTERRUPTOR DE TEMPERATURA POR ALTA "
+}
+,
+{
+"Identificativo":"VF"
+,
+"Comentario":"VARIADOR DE FRECUENCIA"
+}
+,
+{
+"Identificativo":"ALZ"
+,
+"Comentario":"ANALIZADOR DE RED"
+}
+]

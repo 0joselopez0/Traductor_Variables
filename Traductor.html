@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <label for="exampleFormControlFile1">Archivo de configuracion</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1" onchange="abrircsv(this.files)">
+        <script src="Imports/bombas.json"></script>
+        <script src="Imports/adicional.json"></script>
+        <script src="Imports/caldereria.json"></script>
+        <script src="Imports/funcion.json"></script>
+        <script src="Imports/instrumento.json"></script>
+        <script src="Imports/valvulas.json"></script>
+        <script src="Imports/varios.json"></script>
+        <script src="Imports/zonas.json"></script>
+
+    </body>
+
+    <script>
+    function abrircsv(ruta){
+            var fileInput = ruta[0],
+            readFile= function(){
+                var reader = new FileReader();
+                reader.onload = function(){
+                    csvJSON(reader.result);
+                };
+                reader.readAsText(fileInput);
+            };
+            readFile();
+        }
+        function csvJSON(csv) {
+          
+                
+            var lines = csv.split("\n");
+    
+            var result = [];
+    
+            var headers = lines[0].split(";");
+           
+            for (var i = 1; i < lines.length; i++) {
+    
+                var obj = {};
+                var currentline = lines[i].split(";");
+                
+                for (var j = 0; j < headers.length; j++) {
+                    obj[headers[j]] = currentline[j];
+                    
+                }
+    
+                result.push(obj);
+    
+            }
+            
+            mostrarpantalla(result);
+            
+            //return result; //JavaScript object
+            
+        }
+        function mostrarpantalla(salida){
+            console.log('"name"');
+           
+          
+           for(i in salida){
+            var variable = salida[i]['tag'].split(".");  
+            if (variable[3]){
+                var despiece = variable[3].split("_"); 
+            }
+           
+            var sigla = despiece[0];
+            var sigla2= despiece[1];
+
+            
+           for( j in bombas){
+               if(bombas[j].Identificativo==sigla){
+                   console.log(bombas[j].Comentario);
+               }
+           }
+           for( j in valvulas){
+               if(valvulas[j].Identificativo==sigla){
+                   console.log(valvulas[j].Comentario);
+               }
+           }
+           for( j in adicional){
+               if(adicional[j].Identificativo==sigla){
+                   console.log(adicional[j].Comentario);
+               }
+           }
+           for( j in caldereria){
+               if(caldereria[j].Identificativo==sigla){
+                   console.log(caldereria[j].Comentario);
+               }
+           }
+           for( j in funcion){
+               if(funcion[j].Identificativo==sigla){
+                   console.log(funcion[j].Comentario);
+               }
+           }
+           for( j in instrumento){
+               if(instrumento[j].Identificativo==sigla){
+                   console.log(instrumento[j].Comentario);
+               }
+           }
+           for( j in varios){
+               if(varios[j].Identificativo==sigla){
+                   console.log(varios[j].Comentario);
+               }
+           }
+
+           }
+
+        }
+    
+    </script>
+</html>

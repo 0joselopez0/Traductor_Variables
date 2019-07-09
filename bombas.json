@@ -1,0 +1,73 @@
+var bombas=[
+{
+"Identificativo":"BAM"
+,
+"Comentario":"BOMBAS DE AGUA DE MAR "
+}
+,
+{
+"Identificativo":"BAP"
+,
+"Comentario":"BOMBAS ALTA PRESION "
+}
+,
+{
+"Identificativo":"BSP"
+,
+"Comentario":"BOMBAS SEGUNDO PASO "
+}
+,
+{
+"Identificativo":"PX"
+,
+"Comentario":"INTERCAMBIADORES DE PRESION "
+}
+,
+{
+"Identificativo":"BAT"
+,
+"Comentario":"BOMBAS AGUA TRATADA "
+}
+,
+{
+"Identificativo":"BC"
+,
+"Comentario":"BOMBA CENTRÍFUGA (GENERAL)"
+}
+,
+{
+"Identificativo":"BLF"
+,
+"Comentario":"BOMBAS LAVADO DE FILTROS "
+}
+,
+{
+"Identificativo":"BLD"
+,
+"Comentario":"BOMBAS LAVADO Y DESPLAZAMIENTO "
+}
+,
+{
+"Identificativo":"BD"
+,
+"Comentario":"BOMBAS DOSIFICADORAS"
+}
+,
+{
+"Identificativo":"BEA"
+,
+"Comentario":"BOMBAS DE ARENAS "
+}
+,
+{
+"Identificativo":"BVC"
+,
+"Comentario":"BOMBAS DE VACIO "
+}
+,
+{
+"Identificativo":"CENT"
+,
+"Comentario":"CENTRIFUGADORA DE FANGOS "
+}
+]

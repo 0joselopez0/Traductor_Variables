@@ -1,0 +1,37 @@
+var caldereria=[
+{
+"Identificativo":"FA"
+,
+"Comentario":"FILTROS DE ARENA "
+}
+,
+{
+"Identificativo":"FC"
+,
+"Comentario":"FILTROS DE CARTUCHO "
+}
+,
+{
+"Identificativo":"TQ"
+,
+"Comentario":"TANQUES "
+}
+,
+{
+"Identificativo":"FLOT"
+,
+"Comentario":"FLOTADOR DE FANGOS "
+}
+,
+{
+"Identificativo":"SAT"
+,
+"Comentario":"SATURADOR DE CAL "
+}
+,
+{
+"Identificativo":"FLOC"
+,
+"Comentario":"FLOCULADOR "
+}
+]
